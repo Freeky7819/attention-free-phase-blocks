@@ -1,0 +1,54 @@
+# Resonant Models - Core Dependencies
+# Minimum versions for reproducibility
+
+# Deep Learning Framework
+torch>=2.0.0
+transformers>=4.30.0
+
+# Data Processing
+numpy>=1.24.0
+datasets>=2.12.0
+
+# Training Infrastructure
+accelerate>=0.20.0
+bitsandbytes>=0.39.0  # For efficient training
+
+# Metrics & Logging
+wandb>=0.15.0  # Optional: for experiment tracking
+tensorboard>=2.13.0  # Optional: for visualization
+
+# Scientific Computing
+scipy>=1.10.0  # For Ridge regression
+
+# Utilities
+tqdm>=4.65.0
+pyyaml>=6.0
+
+# API Server (Optional - install with: pip install -e ".[api]")
+# fastapi>=0.104.0
+# uvicorn[standard]>=0.24.0
+# pydantic>=2.5.0
+
+# Development (Optional)
+# pytest>=7.3.0
+# black>=23.3.0
+# flake8>=6.0.0
+
+# Hardware-Specific (Optional)
+# For NVIDIA GPUs: Install CUDA-compatible PyTorch
+# For AMD GPUs: Install ROCm-compatible PyTorch
+# For CPU only: Use CPU-only PyTorch
+
+# Installation Notes:
+# 1. Install PyTorch first with CUDA support:
+#    pip install torch --index-url https://download.pytorch.org/whl/cu118
+#
+# 2. Then install remaining dependencies:
+#    pip install -r requirements.txt
+#
+# 3. For development:
+#    pip install -r requirements-dev.txt
+
+# Tested Configurations:
+# - PyTorch 2.1.0 + CUDA 11.8 + Transformers 4.35.0 (Primary)
+# - PyTorch 2.0.1 + CUDA 11.7 + Transformers 4.30.2 (Validated)
