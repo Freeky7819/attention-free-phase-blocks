@@ -500,9 +500,25 @@ If you use this work in your research, please cite:
 
 ---
 
-## License
+## Licensing
 
-MIT License - see [LICENSE](LICENSE) file for details.
+This project is dual-licensed:
+
+1. **Community / Open Source License – AGPL-3.0**
+
+   By default, the code is licensed under the GNU Affero General Public License v3.0 (AGPL-3.0).
+   This means you are free to use, modify, and distribute the code, provided that:
+   - any modified version you deploy as a network service also makes the corresponding source code available to its users, and
+   - derivative works remain under AGPL-3.0.
+
+2. **Commercial License**
+
+   For companies that cannot or do not wish to comply with AGPL-3.0 (e.g., proprietary products or internal deployments without code disclosure),
+   commercial licensing is available.
+
+   If you are interested in a commercial license, please contact:
+
+   **Damjan Žakelj** – \<zakelj.damjan@gmail.com\>
 
 ---
 
