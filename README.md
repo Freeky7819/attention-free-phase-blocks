@@ -2,7 +2,7 @@
 
 > **Breaking the Attention Paradigm**: O(d) memory complexity, infinite effective context, 10.5% needle-in-haystack retrieval without attention mechanisms
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![License: MIT]([https://img.shields.io/badge/License-MIT-blue.svg](https://img.shields.io/badge/License-AGPL_v3-blue.svg))](LICENSE)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-ee4c2c.svg)](https://pytorch.org/)
 [![Status: Research](https://img.shields.io/badge/status-research-orange.svg)](https://github.com)
